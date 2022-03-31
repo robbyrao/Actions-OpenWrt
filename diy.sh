@@ -6,6 +6,6 @@
 # Blog: https://p3terx.com
 #=================================================
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.31.2/g' package/base-files/files/bin/config_generate
 
 echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
